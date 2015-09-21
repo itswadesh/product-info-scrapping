@@ -1,0 +1,730 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/opt/node-v0.12.7-linux-x64/bin/node',
+1 verbose cli   '/opt/node-v0.12.7-linux-x64/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'website-scraper' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose install initial load of /home/swadesh/product-info-scrapping/package.json
+5 warn package.json ScrapNx@1.0.0 No repository field.
+6 warn package.json ScrapNx@1.0.0 No license field.
+7 verbose installManyTop reading scoped package data from /home/swadesh/product-info-scrapping/node_modules/cheerio/package.json
+8 verbose installManyTop reading scoped package data from /home/swadesh/product-info-scrapping/node_modules/connect/package.json
+9 verbose installManyTop reading scoped package data from /home/swadesh/product-info-scrapping/node_modules/connect-livereload/package.json
+10 verbose installManyTop reading scoped package data from /home/swadesh/product-info-scrapping/node_modules/express/package.json
+11 verbose installManyTop reading scoped package data from /home/swadesh/product-info-scrapping/node_modules/fs/package.json
+12 verbose installManyTop reading scoped package data from /home/swadesh/product-info-scrapping/node_modules/http/package.json
+13 verbose installManyTop reading scoped package data from /home/swadesh/product-info-scrapping/node_modules/http-get/package.json
+14 verbose installManyTop reading scoped package data from /home/swadesh/product-info-scrapping/node_modules/jsdom/package.json
+15 verbose installManyTop reading scoped package data from /home/swadesh/product-info-scrapping/node_modules/request/package.json
+16 verbose installManyTop reading scoped package data from /home/swadesh/product-info-scrapping/node_modules/stream/package.json
+17 verbose installManyTop reading scoped package data from /home/swadesh/product-info-scrapping/node_modules/stub/package.json
+18 verbose installManyTop reading scoped package data from /home/swadesh/product-info-scrapping/node_modules/underscore/package.json
+19 verbose installManyTop reading scoped package data from /home/swadesh/product-info-scrapping/node_modules/util/package.json
+20 info package.json connect-livereload@0.5.3 No license field.
+21 info package.json fs@0.0.2 fs is also the name of a node core module.
+22 info package.json fs@0.0.2 No description
+23 info package.json fs@0.0.2 No repository field.
+24 info package.json http@0.0.0 http is also the name of a node core module.
+25 info package.json http@0.0.0 No description
+26 info package.json http@0.0.0 No repository field.
+27 info package.json http@0.0.0 No README data
+28 info package.json util@0.10.3 util is also the name of a node core module.
+29 info package.json stream@0.0.2 stream is also the name of a node core module.
+30 info package.json http-get@0.5.10 No license field.
+31 verbose readDependencies loading dependencies from /home/swadesh/product-info-scrapping/package.json
+32 silly cache add args [ 'website-scraper', null ]
+33 verbose cache add spec website-scraper
+34 silly cache add parsed spec { raw: 'website-scraper',
+34 silly cache add   scope: null,
+34 silly cache add   name: 'website-scraper',
+34 silly cache add   rawSpec: '',
+34 silly cache add   spec: '*',
+34 silly cache add   type: 'range' }
+35 silly addNamed website-scraper@*
+36 verbose addNamed "*" is a valid semver range for website-scraper
+37 silly addNameRange { name: 'website-scraper', range: '*', hasData: false }
+38 silly mapToRegistry name website-scraper
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry https://registry.npmjs.org/
+41 silly mapToRegistry uri https://registry.npmjs.org/website-scraper
+42 verbose addNameRange registry:https://registry.npmjs.org/website-scraper not in flight; fetching
+43 verbose request uri https://registry.npmjs.org/website-scraper
+44 verbose request no auth needed
+45 info attempt registry request try #1 at 9:24:51 PM
+46 verbose request id c1088039d8d51d24
+47 http request GET https://registry.npmjs.org/website-scraper
+48 http 200 https://registry.npmjs.org/website-scraper
+49 silly get cb [ 200,
+49 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+49 silly get     etag: '"44MU3NA9RBC1YRXFQDATOX1OZ"',
+49 silly get     'content-type': 'application/json',
+49 silly get     'cache-control': 'max-age=60',
+49 silly get     'content-length': '19017',
+49 silly get     'accept-ranges': 'bytes',
+49 silly get     date: 'Mon, 21 Sep 2015 15:54:50 GMT',
+49 silly get     via: '1.1 varnish',
+49 silly get     age: '0',
+49 silly get     connection: 'keep-alive',
+49 silly get     'x-served-by': 'cache-sin6923-SIN',
+49 silly get     'x-cache': 'MISS',
+49 silly get     'x-cache-hits': '0',
+49 silly get     'x-timer': 'S1442850890.044076,VS0,VE953',
+49 silly get     vary: 'Accept' } ]
+50 verbose get saving website-scraper to /home/swadesh/.npm/registry.npmjs.org/website-scraper/.cache.json
+51 silly addNameRange number 2 { name: 'website-scraper', range: '*', hasData: true }
+52 silly addNameRange versions [ 'website-scraper',
+52 silly addNameRange   [ '0.1.0',
+52 silly addNameRange     '0.1.1',
+52 silly addNameRange     '0.1.2',
+52 silly addNameRange     '0.1.3',
+52 silly addNameRange     '0.1.4',
+52 silly addNameRange     '0.2.0-beta',
+52 silly addNameRange     '0.2.1-beta',
+52 silly addNameRange     '0.2.1',
+52 silly addNameRange     '0.2.2',
+52 silly addNameRange     '0.2.3',
+52 silly addNameRange     '0.2.4',
+52 silly addNameRange     '0.3.0' ] ]
+53 silly addNamed website-scraper@0.3.0
+54 verbose addNamed "0.3.0" is a plain semver version for website-scraper
+55 silly mapToRegistry name website-scraper
+56 silly mapToRegistry using default registry
+57 silly mapToRegistry registry https://registry.npmjs.org/
+58 silly mapToRegistry uri https://registry.npmjs.org/website-scraper
+59 verbose addRemoteTarball https://registry.npmjs.org/website-scraper/-/website-scraper-0.3.0.tgz not in flight; adding
+60 verbose addRemoteTarball [ 'https://registry.npmjs.org/website-scraper/-/website-scraper-0.3.0.tgz',
+60 verbose addRemoteTarball   'cba0cf7551192c4d12f7edbfea5837340f40f6ff' ]
+61 info retry fetch attempt 1 at 9:24:53 PM
+62 info attempt registry request try #1 at 9:24:53 PM
+63 http fetch GET https://registry.npmjs.org/website-scraper/-/website-scraper-0.3.0.tgz
+64 http fetch 200 https://registry.npmjs.org/website-scraper/-/website-scraper-0.3.0.tgz
+65 silly fetchAndShaCheck shasum cba0cf7551192c4d12f7edbfea5837340f40f6ff
+66 verbose addTmpTarball /tmp/npm-13847-e2bbc09a/registry.npmjs.org/website-scraper/-/website-scraper-0.3.0.tgz not in flight; adding
+67 verbose addTmpTarball already have metadata; skipping unpack for website-scraper@0.3.0
+68 silly cache afterAdd website-scraper@0.3.0
+69 verbose afterAdd /home/swadesh/.npm/website-scraper/0.3.0/package/package.json not in flight; writing
+70 verbose afterAdd /home/swadesh/.npm/website-scraper/0.3.0/package/package.json written
+71 silly install resolved [ { name: 'website-scraper',
+71 silly install resolved     version: '0.3.0',
+71 silly install resolved     description: 'Download website to a local directory (including all css, images, js, etc.)',
+71 silly install resolved     main: 'index.js',
+71 silly install resolved     scripts: { test: 'istanbul cover ./node_modules/mocha/bin/_mocha --dir ./coverage --report lcov -- -R spec --recursive ./test' },
+71 silly install resolved     repository:
+71 silly install resolved      { type: 'git',
+71 silly install resolved        url: 'git://github.com/s0ph1e/node-website-scraper.git' },
+71 silly install resolved     keywords:
+71 silly install resolved      [ 'scrape',
+71 silly install resolved        'scraper',
+71 silly install resolved        'download',
+71 silly install resolved        'web',
+71 silly install resolved        'url',
+71 silly install resolved        'page',
+71 silly install resolved        'site',
+71 silly install resolved        'html',
+71 silly install resolved        'css',
+71 silly install resolved        'image',
+71 silly install resolved        'js' ],
+71 silly install resolved     author: { name: 's0ph1e' },
+71 silly install resolved     license: 'MIT',
+71 silly install resolved     bugs: { url: 'https://github.com/s0ph1e/node-website-scraper/issues' },
+71 silly install resolved     homepage: 'https://github.com/s0ph1e/node-website-scraper',
+71 silly install resolved     dependencies:
+71 silly install resolved      { bluebird: '^2.3.2',
+71 silly install resolved        cheerio: '0.11.0',
+71 silly install resolved        'compare-urls': '^1.0.0',
+71 silly install resolved        'css-url-parser': '^0.1.0',
+71 silly install resolved        'fs-extra': '^0.22.1',
+71 silly install resolved        request: '^2.42.0',
+71 silly install resolved        underscore: '^1.7.0' },
+71 silly install resolved     devDependencies:
+71 silly install resolved      { 'codeclimate-test-reporter': '^0.1.0',
+71 silly install resolved        istanbul: '^0.3.17',
+71 silly install resolved        mocha: '^2.2.5',
+71 silly install resolved        nock: '^2.9.1',
+71 silly install resolved        should: '^7.0.2',
+71 silly install resolved        sinon: '^1.15.4' },
+71 silly install resolved     gitHead: '61ee69d7c1610c6092c910ed806cea58e2b256c8',
+71 silly install resolved     _id: 'website-scraper@0.3.0',
+71 silly install resolved     _shasum: 'cba0cf7551192c4d12f7edbfea5837340f40f6ff',
+71 silly install resolved     _from: 'website-scraper@*',
+71 silly install resolved     _npmVersion: '2.9.0',
+71 silly install resolved     _nodeVersion: '0.10.25',
+71 silly install resolved     _npmUser: { name: 's0ph1e', email: 'sophia.nepochataya@gmail.com' },
+71 silly install resolved     dist:
+71 silly install resolved      { shasum: 'cba0cf7551192c4d12f7edbfea5837340f40f6ff',
+71 silly install resolved        tarball: 'http://registry.npmjs.org/website-scraper/-/website-scraper-0.3.0.tgz' },
+71 silly install resolved     maintainers: [ [Object] ],
+71 silly install resolved     directories: {},
+71 silly install resolved     _resolved: 'https://registry.npmjs.org/website-scraper/-/website-scraper-0.3.0.tgz' } ]
+72 info install website-scraper@0.3.0 into /home/swadesh/product-info-scrapping
+73 info installOne website-scraper@0.3.0
+74 verbose installOne of website-scraper to /home/swadesh/product-info-scrapping not in flight; installing
+75 verbose lock using /home/swadesh/.npm/_locks/website-scraper-b8703d3ea8c0ef06.lock for /home/swadesh/product-info-scrapping/node_modules/website-scraper
+76 silly install write writing website-scraper 0.3.0 to /home/swadesh/product-info-scrapping/node_modules/website-scraper
+77 verbose unbuild node_modules/website-scraper
+78 silly gentlyRm /home/swadesh/product-info-scrapping/node_modules/website-scraper is being purged from base /home/swadesh/product-info-scrapping
+79 verbose gentlyRm don't care about contents; nuking /home/swadesh/product-info-scrapping/node_modules/website-scraper
+80 verbose tar unpack /home/swadesh/.npm/website-scraper/0.3.0/package.tgz
+81 verbose tar unpacking to /home/swadesh/product-info-scrapping/node_modules/website-scraper
+82 silly gentlyRm /home/swadesh/product-info-scrapping/node_modules/website-scraper is being purged
+83 verbose gentlyRm don't care about contents; nuking /home/swadesh/product-info-scrapping/node_modules/website-scraper
+84 silly gunzTarPerm modes [ '775', '664' ]
+85 silly gunzTarPerm extractEntry package.json
+86 silly gunzTarPerm extractEntry .npmignore
+87 silly gunzTarPerm extractEntry README.md
+88 silly gunzTarPerm extractEntry LICENSE
+89 silly gunzTarPerm extractEntry index.js
+90 silly gunzTarPerm extractEntry lib/request.js
+91 silly gunzTarPerm extractEntry lib/resource.js
+92 silly gunzTarPerm extractEntry lib/scraper.js
+93 silly gunzTarPerm extractEntry lib/utils.js
+94 silly gunzTarPerm extractEntry lib/config/defaults.js
+95 silly gunzTarPerm extractEntry lib/config/resource-types-by-tag.js
+96 silly gunzTarPerm extractEntry lib/config/resource-types.js
+97 silly gunzTarPerm extractEntry lib/file-handlers/css.js
+98 silly gunzTarPerm extractEntry lib/file-handlers/html.js
+99 verbose write writing to /home/swadesh/product-info-scrapping/node_modules/website-scraper/package.json
+100 info preinstall website-scraper@0.3.0
+101 verbose readDependencies loading dependencies from /home/swadesh/product-info-scrapping/node_modules/website-scraper/package.json
+102 silly prepareForInstallMany adding bluebird@^2.3.2 from website-scraper dependencies
+103 silly prepareForInstallMany adding cheerio@0.11.0 from website-scraper dependencies
+104 silly prepareForInstallMany adding compare-urls@^1.0.0 from website-scraper dependencies
+105 silly prepareForInstallMany adding css-url-parser@^0.1.0 from website-scraper dependencies
+106 silly prepareForInstallMany adding fs-extra@^0.22.1 from website-scraper dependencies
+107 verbose readDependencies loading dependencies from /home/swadesh/product-info-scrapping/node_modules/website-scraper/package.json
+108 silly cache add args [ 'bluebird@^2.3.2', null ]
+109 verbose cache add spec bluebird@^2.3.2
+110 silly cache add args [ 'cheerio@0.11.0', null ]
+111 verbose cache add spec cheerio@0.11.0
+112 silly cache add parsed spec { raw: 'bluebird@^2.3.2',
+112 silly cache add   scope: null,
+112 silly cache add   name: 'bluebird',
+112 silly cache add   rawSpec: '^2.3.2',
+112 silly cache add   spec: '>=2.3.2 <3.0.0',
+112 silly cache add   type: 'range' }
+113 silly addNamed bluebird@>=2.3.2 <3.0.0
+114 verbose addNamed ">=2.3.2 <3.0.0" is a valid semver range for bluebird
+115 silly addNameRange { name: 'bluebird', range: '>=2.3.2 <3.0.0', hasData: false }
+116 silly mapToRegistry name bluebird
+117 silly mapToRegistry using default registry
+118 silly mapToRegistry registry https://registry.npmjs.org/
+119 silly mapToRegistry uri https://registry.npmjs.org/bluebird
+120 verbose addNameRange registry:https://registry.npmjs.org/bluebird not in flight; fetching
+121 silly cache add parsed spec { raw: 'cheerio@0.11.0',
+121 silly cache add   scope: null,
+121 silly cache add   name: 'cheerio',
+121 silly cache add   rawSpec: '0.11.0',
+121 silly cache add   spec: '0.11.0',
+121 silly cache add   type: 'version' }
+122 silly addNamed cheerio@0.11.0
+123 verbose addNamed "0.11.0" is a plain semver version for cheerio
+124 silly mapToRegistry name cheerio
+125 silly mapToRegistry using default registry
+126 silly mapToRegistry registry https://registry.npmjs.org/
+127 silly mapToRegistry uri https://registry.npmjs.org/cheerio
+128 verbose addNameVersion registry:https://registry.npmjs.org/cheerio not in flight; fetching
+129 silly cache add args [ 'compare-urls@^1.0.0', null ]
+130 verbose cache add spec compare-urls@^1.0.0
+131 silly cache add parsed spec { raw: 'compare-urls@^1.0.0',
+131 silly cache add   scope: null,
+131 silly cache add   name: 'compare-urls',
+131 silly cache add   rawSpec: '^1.0.0',
+131 silly cache add   spec: '>=1.0.0 <2.0.0',
+131 silly cache add   type: 'range' }
+132 silly addNamed compare-urls@>=1.0.0 <2.0.0
+133 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for compare-urls
+134 silly addNameRange { name: 'compare-urls', range: '>=1.0.0 <2.0.0', hasData: false }
+135 silly mapToRegistry name compare-urls
+136 silly mapToRegistry using default registry
+137 silly mapToRegistry registry https://registry.npmjs.org/
+138 silly mapToRegistry uri https://registry.npmjs.org/compare-urls
+139 verbose addNameRange registry:https://registry.npmjs.org/compare-urls not in flight; fetching
+140 silly cache add args [ 'css-url-parser@^0.1.0', null ]
+141 verbose cache add spec css-url-parser@^0.1.0
+142 silly cache add parsed spec { raw: 'css-url-parser@^0.1.0',
+142 silly cache add   scope: null,
+142 silly cache add   name: 'css-url-parser',
+142 silly cache add   rawSpec: '^0.1.0',
+142 silly cache add   spec: '>=0.1.0 <0.2.0',
+142 silly cache add   type: 'range' }
+143 silly addNamed css-url-parser@>=0.1.0 <0.2.0
+144 verbose addNamed ">=0.1.0 <0.2.0" is a valid semver range for css-url-parser
+145 silly addNameRange { name: 'css-url-parser',
+145 silly addNameRange   range: '>=0.1.0 <0.2.0',
+145 silly addNameRange   hasData: false }
+146 silly mapToRegistry name css-url-parser
+147 silly mapToRegistry using default registry
+148 silly mapToRegistry registry https://registry.npmjs.org/
+149 silly mapToRegistry uri https://registry.npmjs.org/css-url-parser
+150 verbose addNameRange registry:https://registry.npmjs.org/css-url-parser not in flight; fetching
+151 silly cache add args [ 'fs-extra@^0.22.1', null ]
+152 verbose cache add spec fs-extra@^0.22.1
+153 silly cache add parsed spec { raw: 'fs-extra@^0.22.1',
+153 silly cache add   scope: null,
+153 silly cache add   name: 'fs-extra',
+153 silly cache add   rawSpec: '^0.22.1',
+153 silly cache add   spec: '>=0.22.1 <0.23.0',
+153 silly cache add   type: 'range' }
+154 silly addNamed fs-extra@>=0.22.1 <0.23.0
+155 verbose addNamed ">=0.22.1 <0.23.0" is a valid semver range for fs-extra
+156 silly addNameRange { name: 'fs-extra', range: '>=0.22.1 <0.23.0', hasData: false }
+157 silly mapToRegistry name fs-extra
+158 silly mapToRegistry using default registry
+159 silly mapToRegistry registry https://registry.npmjs.org/
+160 silly mapToRegistry uri https://registry.npmjs.org/fs-extra
+161 verbose addNameRange registry:https://registry.npmjs.org/fs-extra not in flight; fetching
+162 verbose request uri https://registry.npmjs.org/compare-urls
+163 verbose request no auth needed
+164 info attempt registry request try #1 at 9:24:55 PM
+165 http request GET https://registry.npmjs.org/compare-urls
+166 verbose request uri https://registry.npmjs.org/css-url-parser
+167 verbose request no auth needed
+168 info attempt registry request try #1 at 9:24:55 PM
+169 http request GET https://registry.npmjs.org/css-url-parser
+170 verbose request uri https://registry.npmjs.org/bluebird
+171 verbose request no auth needed
+172 info attempt registry request try #1 at 9:24:55 PM
+173 verbose etag "6DOPSVM70UDTB8SCNPGUI0OWH"
+174 http request GET https://registry.npmjs.org/bluebird
+175 verbose request uri https://registry.npmjs.org/cheerio
+176 verbose request no auth needed
+177 info attempt registry request try #1 at 9:24:55 PM
+178 verbose etag "8F9UZAVFWC7JD6MRPPYH6UXFJ"
+179 http request GET https://registry.npmjs.org/cheerio
+180 verbose request uri https://registry.npmjs.org/fs-extra
+181 verbose request no auth needed
+182 info attempt registry request try #1 at 9:24:55 PM
+183 verbose etag "9V9Z3GMBFKUNZ43YE4FZNZJH3"
+184 http request GET https://registry.npmjs.org/fs-extra
+185 http 304 https://registry.npmjs.org/bluebird
+186 silly get cb [ 304,
+186 silly get   { date: 'Mon, 21 Sep 2015 15:54:53 GMT',
+186 silly get     via: '1.1 varnish',
+186 silly get     'cache-control': 'max-age=60',
+186 silly get     etag: '"6DOPSVM70UDTB8SCNPGUI0OWH"',
+186 silly get     age: '9',
+186 silly get     connection: 'keep-alive',
+186 silly get     'x-served-by': 'cache-sin6922-SIN',
+186 silly get     'x-cache': 'HIT',
+186 silly get     'x-cache-hits': '1',
+186 silly get     'x-timer': 'S1442850893.332740,VS0,VE1',
+186 silly get     vary: 'Accept' } ]
+187 verbose etag https://registry.npmjs.org/bluebird from cache
+188 verbose get saving bluebird to /home/swadesh/.npm/registry.npmjs.org/bluebird/.cache.json
+189 silly addNameRange number 2 { name: 'bluebird', range: '>=2.3.2 <3.0.0', hasData: true }
+190 silly addNameRange versions [ 'bluebird',
+190 silly addNameRange   [ '0.7.1-1',
+190 silly addNameRange     '0.7.1-2',
+190 silly addNameRange     '0.7.1-3',
+190 silly addNameRange     '0.7.1-4',
+190 silly addNameRange     '0.7.1-5',
+190 silly addNameRange     '0.7.2-0',
+190 silly addNameRange     '0.7.3-0',
+190 silly addNameRange     '0.7.4-0',
+190 silly addNameRange     '0.7.4-1',
+190 silly addNameRange     '0.7.5-0',
+190 silly addNameRange     '0.7.6-0',
+190 silly addNameRange     '0.7.7-0',
+190 silly addNameRange     '0.7.7-1',
+190 silly addNameRange     '0.7.8-0',
+190 silly addNameRange     '0.7.8-1',
+190 silly addNameRange     '0.7.9-0',
+190 silly addNameRange     '0.7.9-1',
+190 silly addNameRange     '0.7.10-0',
+190 silly addNameRange     '0.7.10-1',
+190 silly addNameRange     '0.7.11-0',
+190 silly addNameRange     '0.7.12-0',
+190 silly addNameRange     '0.7.12-1',
+190 silly addNameRange     '0.7.12-2',
+190 silly addNameRange     '0.8.0-0',
+190 silly addNameRange     '0.8.0-1',
+190 silly addNameRange     '0.8.0-2',
+190 silly addNameRange     '0.8.0-3',
+190 silly addNameRange     '0.8.1-0',
+190 silly addNameRange     '0.8.2-0',
+190 silly addNameRange     '0.8.2-1',
+190 silly addNameRange     '0.8.2-2',
+190 silly addNameRange     '0.8.3-0',
+190 silly addNameRange     '0.8.3-1',
+190 silly addNameRange     '0.8.3-2',
+190 silly addNameRange     '0.8.3-3',
+190 silly addNameRange     '0.8.4-0',
+190 silly addNameRange     '0.8.4-1',
+190 silly addNameRange     '0.8.5-0',
+190 silly addNameRange     '0.8.5-1',
+190 silly addNameRange     '0.9.0-0',
+190 silly addNameRange     '0.9.1-0',
+190 silly addNameRange     '0.9.1-1',
+190 silly addNameRange     '0.9.2-0',
+190 silly addNameRange     '0.9.2-1',
+190 silly addNameRange     '0.9.3-0',
+190 silly addNameRange     '0.9.4-0',
+190 silly addNameRange     '0.9.4-1',
+190 silly addNameRange     '0.9.5-0',
+190 silly addNameRange     '0.9.6-0',
+190 silly addNameRange     '0.9.7-0',
+190 silly addNameRange     '0.9.8-0',
+190 silly addNameRange     '0.9.9-0',
+190 silly addNameRange     '0.9.10-0',
+190 silly addNameRange     '0.9.10-1',
+190 silly addNameRange     '0.9.11-0',
+190 silly addNameRange     '0.9.11-1',
+190 silly addNameRange     '0.10.0-0',
+190 silly addNameRange     '0.10.0-1',
+190 silly addNameRange     '0.10.1-0',
+190 silly addNameRange     '0.10.2-0',
+190 silly addNameRange     '0.10.2-1',
+190 silly addNameRange     '0.10.3-0',
+190 silly addNameRange     '0.10.4-0',
+190 silly addNameRange     '0.10.4-1',
+190 silly addNameRange     '0.10.5-0',
+190 silly addNameRange     '0.10.6-0',
+190 silly addNameRange     '0.10.7-0',
+190 silly addNameRange     '0.10.8-0',
+190 silly addNameRange     '0.10.9-0',
+190 silly addNameRange     '0.10.9-1',
+190 silly addNameRange     '0.10.10-0',
+190 silly addNameRange     '0.10.11-0',
+190 silly addNameRange     '0.10.11-1',
+190 silly addNameRange     '0.10.11-2',
+190 silly addNameRange     '0.10.11-4',
+190 silly addNameRange     '0.10.12-0',
+190 silly addNameRange     '0.10.13-0',
+190 silly addNameRange     '0.10.13-1',
+190 silly addNameRange     '0.10.14-0',
+190 silly addNameRange     '0.11.0-0',
+190 silly addNameRange     '0.11.1-0',
+190 silly addNameRange     '0.11.2-0',
+190 silly addNameRange     '0.11.3-0',
+190 silly addNameRange     '0.11.4-0',
+190 silly addNameRange     '0.11.4-1',
+190 silly addNameRange     '0.11.5-0',
+190 silly addNameRange     '0.11.5-1',
+190 silly addNameRange     '0.11.6-0',
+190 silly addNameRange     '1.0.0',
+190 silly addNameRange     '1.0.1',
+190 silly addNameRange     '1.0.2',
+190 silly addNameRange     '1.0.3',
+190 silly addNameRange     '1.0.4',
+190 silly addNameRange     '1.0.5',
+190 silly addNameRange     '1.0.7',
+190 silly addNameRange     '1.0.8',
+190 silly addNameRange     '1.1.0',
+190 silly addNameRange     '1.1.1',
+190 silly addNameRange     '1.2.0',
+190 silly addNameRange     '1.2.1',
+190 silly addNameRange     '1.2.2',
+190 silly addNameRange     '1.2.3',
+190 silly addNameRange     '1.2.4',
+190 silly addNameRange     '2.0.2',
+190 silly addNameRange     '2.0.3',
+190 silly addNameRange     '2.0.4',
+190 silly addNameRange     '2.0.5',
+190 silly addNameRange     '2.0.6',
+190 silly addNameRange     '2.0.7',
+190 silly addNameRange     '2.1.1',
+190 silly addNameRange     '2.1.2',
+190 silly addNameRange     '2.1.3',
+190 silly addNameRange     '2.2.0',
+190 silly addNameRange     '2.2.1',
+190 silly addNameRange     '2.2.2',
+190 silly addNameRange     '2.3.0',
+190 silly addNameRange     '2.3.1',
+190 silly addNameRange     '2.3.2',
+190 silly addNameRange     '2.3.3',
+190 silly addNameRange     '2.3.4',
+190 silly addNameRange     '2.3.5',
+190 silly addNameRange     '0.11.6',
+190 silly addNameRange     '2.3.6',
+190 silly addNameRange     '2.3.9',
+190 silly addNameRange     '2.3.10',
+190 silly addNameRange     '2.3.11',
+190 silly addNameRange     '2.4.0',
+190 silly addNameRange     '2.4.1',
+190 silly addNameRange     '2.4.2',
+190 silly addNameRange     '2.4.3',
+190 silly addNameRange     '2.5.0',
+190 silly addNameRange     '2.5.1',
+190 silly addNameRange     '2.5.2',
+190 silly addNameRange     '2.5.3',
+190 silly addNameRange     '2.6.0',
+190 silly addNameRange     '2.6.1',
+190 silly addNameRange     '2.6.2',
+190 silly addNameRange     '2.6.3',
+190 silly addNameRange     '2.6.4',
+190 silly addNameRange     '2.7.0',
+190 silly addNameRange     '2.7.1',
+190 silly addNameRange     '2.8.0',
+190 silly addNameRange     '2.8.1',
+190 silly addNameRange     '2.8.2',
+190 silly addNameRange     '2.9.0',
+190 silly addNameRange     '2.9.1',
+190 silly addNameRange     '2.9.2',
+190 silly addNameRange     '2.9.3',
+190 silly addNameRange     '2.9.4',
+190 silly addNameRange     '2.9.5',
+190 silly addNameRange     '2.9.6',
+190 silly addNameRange     '2.9.7',
+190 silly addNameRange     '2.9.8',
+190 silly addNameRange     '2.9.9',
+190 silly addNameRange     '2.9.10',
+190 silly addNameRange     '2.9.11',
+190 silly addNameRange     '2.9.12',
+190 silly addNameRange     '2.9.13',
+190 silly addNameRange     '2.9.14',
+190 silly addNameRange     '2.9.15',
+190 silly addNameRange     '2.9.16',
+190 silly addNameRange     '2.9.17',
+190 silly addNameRange     '2.9.18',
+190 silly addNameRange     '2.9.19',
+190 silly addNameRange     '2.9.20',
+190 silly addNameRange     '2.9.21',
+190 silly addNameRange     '2.9.22',
+190 silly addNameRange     '2.9.23',
+190 silly addNameRange     '2.9.24',
+190 silly addNameRange     '2.9.25',
+190 silly addNameRange     '2.9.26',
+190 silly addNameRange     '2.9.27',
+190 silly addNameRange     '2.9.28',
+190 silly addNameRange     '2.9.29',
+190 silly addNameRange     '2.9.30',
+190 silly addNameRange     '2.9.31',
+190 silly addNameRange     '2.9.32',
+190 silly addNameRange     '2.9.33',
+190 silly addNameRange     '2.9.34',
+190 silly addNameRange     '2.10.0' ] ]
+191 silly addNamed bluebird@2.10.0
+192 verbose addNamed "2.10.0" is a plain semver version for bluebird
+193 silly cache afterAdd bluebird@2.10.0
+194 verbose afterAdd /home/swadesh/.npm/bluebird/2.10.0/package/package.json not in flight; writing
+195 verbose afterAdd /home/swadesh/.npm/bluebird/2.10.0/package/package.json written
+196 http 304 https://registry.npmjs.org/cheerio
+197 silly get cb [ 304,
+197 silly get   { date: 'Mon, 21 Sep 2015 15:54:53 GMT',
+197 silly get     via: '1.1 varnish',
+197 silly get     'cache-control': 'max-age=60',
+197 silly get     etag: '"8F9UZAVFWC7JD6MRPPYH6UXFJ"',
+197 silly get     age: '4',
+197 silly get     connection: 'keep-alive',
+197 silly get     'x-served-by': 'cache-sin6920-SIN',
+197 silly get     'x-cache': 'HIT',
+197 silly get     'x-cache-hits': '1',
+197 silly get     'x-timer': 'S1442850893.370718,VS0,VE1',
+197 silly get     vary: 'Accept' } ]
+198 verbose etag https://registry.npmjs.org/cheerio from cache
+199 verbose get saving cheerio to /home/swadesh/.npm/registry.npmjs.org/cheerio/.cache.json
+200 silly mapToRegistry name cheerio
+201 silly mapToRegistry using default registry
+202 silly mapToRegistry registry https://registry.npmjs.org/
+203 silly mapToRegistry uri https://registry.npmjs.org/cheerio
+204 verbose addRemoteTarball https://registry.npmjs.org/cheerio/-/cheerio-0.11.0.tgz not in flight; adding
+205 verbose addRemoteTarball [ 'https://registry.npmjs.org/cheerio/-/cheerio-0.11.0.tgz',
+205 verbose addRemoteTarball   '62549889403ebc7a608e3fba64c1822117e76b51' ]
+206 info retry fetch attempt 1 at 9:24:55 PM
+207 info attempt registry request try #1 at 9:24:55 PM
+208 http fetch GET https://registry.npmjs.org/cheerio/-/cheerio-0.11.0.tgz
+209 http 200 https://registry.npmjs.org/compare-urls
+210 silly get cb [ 200,
+210 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+210 silly get     etag: '"D447XOQZZ2BXIX5MKP8MH6L52"',
+210 silly get     'content-type': 'application/json',
+210 silly get     'cache-control': 'max-age=60',
+210 silly get     'content-length': '2483',
+210 silly get     'accept-ranges': 'bytes',
+210 silly get     date: 'Mon, 21 Sep 2015 15:54:53 GMT',
+210 silly get     via: '1.1 varnish',
+210 silly get     age: '0',
+210 silly get     connection: 'keep-alive',
+210 silly get     'x-served-by': 'cache-sin6923-SIN',
+210 silly get     'x-cache': 'MISS',
+210 silly get     'x-cache-hits': '0',
+210 silly get     'x-timer': 'S1442850893.278621,VS0,VE194',
+210 silly get     vary: 'Accept' } ]
+211 verbose get saving compare-urls to /home/swadesh/.npm/registry.npmjs.org/compare-urls/.cache.json
+212 silly addNameRange number 2 { name: 'compare-urls', range: '>=1.0.0 <2.0.0', hasData: true }
+213 silly addNameRange versions [ 'compare-urls', [ '1.0.0' ] ]
+214 silly addNamed compare-urls@1.0.0
+215 verbose addNamed "1.0.0" is a plain semver version for compare-urls
+216 silly mapToRegistry name compare-urls
+217 silly mapToRegistry using default registry
+218 silly mapToRegistry registry https://registry.npmjs.org/
+219 silly mapToRegistry uri https://registry.npmjs.org/compare-urls
+220 verbose addRemoteTarball https://registry.npmjs.org/compare-urls/-/compare-urls-1.0.0.tgz not in flight; adding
+221 verbose addRemoteTarball [ 'https://registry.npmjs.org/compare-urls/-/compare-urls-1.0.0.tgz',
+221 verbose addRemoteTarball   'c90d3044dfe12e3bd9eda4aebc78cd2018853fba' ]
+222 info retry fetch attempt 1 at 9:24:56 PM
+223 info attempt registry request try #1 at 9:24:56 PM
+224 http fetch GET https://registry.npmjs.org/compare-urls/-/compare-urls-1.0.0.tgz
+225 http 200 https://registry.npmjs.org/css-url-parser
+226 silly get cb [ 200,
+226 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+226 silly get     etag: '"9VCESNCEEMWGNZMLU7AGIRYYG"',
+226 silly get     'content-type': 'application/json',
+226 silly get     'cache-control': 'max-age=60',
+226 silly get     'content-length': '2591',
+226 silly get     'accept-ranges': 'bytes',
+226 silly get     date: 'Mon, 21 Sep 2015 15:54:53 GMT',
+226 silly get     via: '1.1 varnish',
+226 silly get     age: '0',
+226 silly get     connection: 'keep-alive',
+226 silly get     'x-served-by': 'cache-sin6924-SIN',
+226 silly get     'x-cache': 'MISS',
+226 silly get     'x-cache-hits': '0',
+226 silly get     'x-timer': 'S1442850893.295091,VS0,VE248',
+226 silly get     vary: 'Accept' } ]
+227 verbose get saving css-url-parser to /home/swadesh/.npm/registry.npmjs.org/css-url-parser/.cache.json
+228 silly addNameRange number 2 { name: 'css-url-parser',
+228 silly addNameRange   range: '>=0.1.0 <0.2.0',
+228 silly addNameRange   hasData: true }
+229 silly addNameRange versions [ 'css-url-parser', [ '0.1.0' ] ]
+230 silly addNamed css-url-parser@0.1.0
+231 verbose addNamed "0.1.0" is a plain semver version for css-url-parser
+232 silly mapToRegistry name css-url-parser
+233 silly mapToRegistry using default registry
+234 silly mapToRegistry registry https://registry.npmjs.org/
+235 silly mapToRegistry uri https://registry.npmjs.org/css-url-parser
+236 verbose addRemoteTarball https://registry.npmjs.org/css-url-parser/-/css-url-parser-0.1.0.tgz not in flight; adding
+237 verbose addRemoteTarball [ 'https://registry.npmjs.org/css-url-parser/-/css-url-parser-0.1.0.tgz',
+237 verbose addRemoteTarball   '67dca682530654669760e43d9be1d4383c126213' ]
+238 info retry fetch attempt 1 at 9:24:56 PM
+239 info attempt registry request try #1 at 9:24:56 PM
+240 http fetch GET https://registry.npmjs.org/css-url-parser/-/css-url-parser-0.1.0.tgz
+241 http 200 https://registry.npmjs.org/fs-extra
+242 silly get cb [ 200,
+242 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+242 silly get     etag: '"CVTDWIRJSN9IOCI9SZOYWV7CU"',
+242 silly get     'content-type': 'application/json',
+242 silly get     'cache-control': 'max-age=60',
+242 silly get     'content-length': '94401',
+242 silly get     'accept-ranges': 'bytes',
+242 silly get     date: 'Mon, 21 Sep 2015 15:54:53 GMT',
+242 silly get     via: '1.1 varnish',
+242 silly get     age: '35',
+242 silly get     connection: 'keep-alive',
+242 silly get     'x-served-by': 'cache-sin6921-SIN',
+242 silly get     'x-cache': 'HIT',
+242 silly get     'x-cache-hits': '28',
+242 silly get     'x-timer': 'S1442850893.496323,VS0,VE0',
+242 silly get     vary: 'Accept' } ]
+243 verbose get saving fs-extra to /home/swadesh/.npm/registry.npmjs.org/fs-extra/.cache.json
+244 silly addNameRange number 2 { name: 'fs-extra', range: '>=0.22.1 <0.23.0', hasData: true }
+245 silly addNameRange versions [ 'fs-extra',
+245 silly addNameRange   [ '0.0.1',
+245 silly addNameRange     '0.0.11',
+245 silly addNameRange     '0.0.3',
+245 silly addNameRange     '0.0.4',
+245 silly addNameRange     '0.1.0',
+245 silly addNameRange     '0.1.1',
+245 silly addNameRange     '0.1.2',
+245 silly addNameRange     '0.1.3',
+245 silly addNameRange     '0.2.0',
+245 silly addNameRange     '0.2.1',
+245 silly addNameRange     '0.3.0',
+245 silly addNameRange     '0.3.1',
+245 silly addNameRange     '0.3.2',
+245 silly addNameRange     '0.4.0',
+245 silly addNameRange     '0.5.0',
+245 silly addNameRange     '0.6.0',
+245 silly addNameRange     '0.6.1',
+245 silly addNameRange     '0.6.2',
+245 silly addNameRange     '0.6.3',
+245 silly addNameRange     '0.6.4',
+245 silly addNameRange     '0.7.0',
+245 silly addNameRange     '0.7.1',
+245 silly addNameRange     '0.8.0',
+245 silly addNameRange     '0.8.1',
+245 silly addNameRange     '0.9.0',
+245 silly addNameRange     '0.9.1',
+245 silly addNameRange     '0.10.0',
+245 silly addNameRange     '0.11.0',
+245 silly addNameRange     '0.11.1',
+245 silly addNameRange     '0.12.0',
+245 silly addNameRange     '0.13.0',
+245 silly addNameRange     '0.14.0',
+245 silly addNameRange     '0.15.0',
+245 silly addNameRange     '0.16.0',
+245 silly addNameRange     '0.16.1',
+245 silly addNameRange     '0.16.2',
+245 silly addNameRange     '0.16.3',
+245 silly addNameRange     '0.16.4',
+245 silly addNameRange     '0.16.5',
+245 silly addNameRange     '0.17.0',
+245 silly addNameRange     '0.18.0',
+245 silly addNameRange     '0.18.1',
+245 silly addNameRange     '0.18.2',
+245 silly addNameRange     '0.18.3',
+245 silly addNameRange     '0.18.4',
+245 silly addNameRange     '0.19.0',
+245 silly addNameRange     '0.20.0',
+245 silly addNameRange     '0.20.1',
+245 silly addNameRange     '0.21.0',
+245 silly addNameRange     '0.22.0',
+245 silly addNameRange     '0.22.1',
+245 silly addNameRange     '0.23.0',
+245 silly addNameRange     '0.23.1',
+245 silly addNameRange     '0.24.0' ] ]
+246 silly addNamed fs-extra@0.22.1
+247 verbose addNamed "0.22.1" is a plain semver version for fs-extra
+248 silly mapToRegistry name fs-extra
+249 silly mapToRegistry using default registry
+250 silly mapToRegistry registry https://registry.npmjs.org/
+251 silly mapToRegistry uri https://registry.npmjs.org/fs-extra
+252 verbose addRemoteTarball https://registry.npmjs.org/fs-extra/-/fs-extra-0.22.1.tgz not in flight; adding
+253 verbose addRemoteTarball [ 'https://registry.npmjs.org/fs-extra/-/fs-extra-0.22.1.tgz',
+253 verbose addRemoteTarball   '5fd6f8049dc976ca19eb2355d658173cabcce056' ]
+254 info retry fetch attempt 1 at 9:24:57 PM
+255 info attempt registry request try #1 at 9:24:57 PM
+256 http fetch GET https://registry.npmjs.org/fs-extra/-/fs-extra-0.22.1.tgz
+257 http fetch 200 https://registry.npmjs.org/fs-extra/-/fs-extra-0.22.1.tgz
+258 http fetch 200 https://registry.npmjs.org/compare-urls/-/compare-urls-1.0.0.tgz
+259 silly fetchAndShaCheck shasum c90d3044dfe12e3bd9eda4aebc78cd2018853fba
+260 verbose addTmpTarball /tmp/npm-13847-e2bbc09a/registry.npmjs.org/compare-urls/-/compare-urls-1.0.0.tgz not in flight; adding
+261 verbose addTmpTarball already have metadata; skipping unpack for compare-urls@1.0.0
+262 silly cache afterAdd compare-urls@1.0.0
+263 verbose afterAdd /home/swadesh/.npm/compare-urls/1.0.0/package/package.json not in flight; writing
+264 verbose afterAdd /home/swadesh/.npm/compare-urls/1.0.0/package/package.json written
+265 http fetch 200 https://registry.npmjs.org/css-url-parser/-/css-url-parser-0.1.0.tgz
+266 silly fetchAndShaCheck shasum 67dca682530654669760e43d9be1d4383c126213
+267 verbose addTmpTarball /tmp/npm-13847-e2bbc09a/registry.npmjs.org/css-url-parser/-/css-url-parser-0.1.0.tgz not in flight; adding
+268 verbose addTmpTarball already have metadata; skipping unpack for css-url-parser@0.1.0
+269 silly cache afterAdd css-url-parser@0.1.0
+270 verbose afterAdd /home/swadesh/.npm/css-url-parser/0.1.0/package/package.json not in flight; writing
+271 verbose afterAdd /home/swadesh/.npm/css-url-parser/0.1.0/package/package.json written
+272 http fetch 200 https://registry.npmjs.org/cheerio/-/cheerio-0.11.0.tgz
+273 silly fetchAndShaCheck shasum 62549889403ebc7a608e3fba64c1822117e76b51
+274 verbose addTmpTarball /tmp/npm-13847-e2bbc09a/registry.npmjs.org/cheerio/-/cheerio-0.11.0.tgz not in flight; adding
+275 verbose addTmpTarball already have metadata; skipping unpack for cheerio@0.11.0
+276 silly fetchAndShaCheck shasum 5fd6f8049dc976ca19eb2355d658173cabcce056
+277 verbose addTmpTarball /tmp/npm-13847-e2bbc09a/registry.npmjs.org/fs-extra/-/fs-extra-0.22.1.tgz not in flight; adding
+278 verbose addTmpTarball already have metadata; skipping unpack for fs-extra@0.22.1
+279 verbose about to build /home/swadesh/product-info-scrapping/node_modules/website-scraper
+280 verbose unlock done using /home/swadesh/.npm/_locks/website-scraper-b8703d3ea8c0ef06.lock for /home/swadesh/product-info-scrapping/node_modules/website-scraper
+281 verbose stack Error: EACCES, mkdir '/home/swadesh/.npm/cheerio/0.11.0'
+281 verbose stack     at Error (native)
+282 verbose cwd /home/swadesh/product-info-scrapping
+283 error Linux 3.19.0-28-generic
+284 error argv "/opt/node-v0.12.7-linux-x64/bin/node" "/opt/node-v0.12.7-linux-x64/bin/npm" "install" "website-scraper"
+285 error node v0.12.7
+286 error npm  v2.11.3
+287 error path /home/swadesh/.npm/cheerio/0.11.0
+288 error code EACCES
+289 error errno -13
+290 error Error: EACCES, mkdir '/home/swadesh/.npm/cheerio/0.11.0'
+290 error     at Error (native)
+290 error  { [Error: EACCES, mkdir '/home/swadesh/.npm/cheerio/0.11.0']
+290 error   errno: -13,
+290 error   code: 'EACCES',
+290 error   path: '/home/swadesh/.npm/cheerio/0.11.0',
+290 error   parent: 'website-scraper' }
+291 error Please try running this command again as root/Administrator.
+292 verbose exit [ -13, true ]
+293 verbose unbuild node_modules/website-scraper
+294 info preuninstall website-scraper@0.3.0
+295 info uninstall website-scraper@0.3.0
+296 verbose unbuild rmStuff website-scraper@0.3.0 from /home/swadesh/product-info-scrapping/node_modules
+297 info postuninstall website-scraper@0.3.0
+298 silly gentlyRm /home/swadesh/product-info-scrapping/node_modules/website-scraper is being purged from base /home/swadesh/product-info-scrapping
+299 verbose gentlyRm don't care about contents; nuking /home/swadesh/product-info-scrapping/node_modules/website-scraper
+300 silly vacuum-fs purging /home/swadesh/product-info-scrapping/node_modules/website-scraper
+301 silly vacuum-fs quitting because other entries in /home/swadesh/product-info-scrapping/node_modules
